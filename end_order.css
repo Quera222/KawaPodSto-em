@@ -1,0 +1,62 @@
+
+#order-personal-details{
+   display: flex;
+   gap: 5rem;
+}
+
+#container{
+    padding: 7rem 5rem 3rem 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+h3,h2{
+    margin: 20px 0;
+}
+
+
+.btn{
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    background-color:#bb6f11;
+    color: var(--bg-color);
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 120px;
+
+}
+
+.btn:hover{
+    background-color: var(--main-color)
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+p{
+    margin: 5px;
+}
+
+#section-img {
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#end-order-container {
+    flex: 1; }
